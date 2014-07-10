@@ -14,6 +14,18 @@
   </head>
 
   <body>
-    <a href="intent://scan/#Intent;scheme=zxing;package=com.google.zxing.client.android;end"> Take a QR code </a>
+  <!-- 
+    HOST/URI-path // Optional host 
+    #Intent; 
+      package=[string]; 
+      action=[string]; 
+      category=[string]; 
+      component=[string]; 
+      scheme=[string]; 
+    end;  -->
+    <a href="intent://urbanindo/property#Intent;scheme=urbanindo;package=com.urbanindo.android;end">Open property details</a>
+    <a href="intent://urbanindo/user#Intent;scheme=urbanindo;package=com.urbanindo.android;end">Open user details</a>
+    <a href="intent://urbanindo/company#Intent;scheme=urbanindo;package=com.urbanindo.android;end">Open company details</a>
+    <a href="intent://urbanindo/search#Intent;scheme=urbanindo;package=com.urbanindo.android;end">Open search</a>
   </body>
 </html>
