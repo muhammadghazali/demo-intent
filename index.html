@@ -14,19 +14,21 @@
   </head>
 
   <body>
-  <!-- 
-    HOST/URI-path // Optional host 
-    #Intent; 
-      package=[string]; 
-      action=[string]; 
-      category=[string]; 
-      component=[string]; 
-      scheme=[string]; 
-    end;  -->
-    <a href="intent://urbanindo/property#Intent;scheme=urbanindo;package=com.urbanindo.android;end">Open property details</a><br />
-    <a href="intent://urbanindo/user#Intent;scheme=urbanindo;package=com.urbanindo.android;end">Open user details</a><br />
-    <a href="intent://urbanindo/company#Intent;scheme=urbanindo;package=com.urbanindo.android;end">Open company details</a><br />
-    <a href="intent://urbanindo/search#Intent;scheme=urbanindo;package=com.urbanindo.android;end">Open search</a><br />
-    <a href="urbanindo://property">Open property details</a>
+
+    <p>
+      <a href="urbanindo://property" class="btn btn-default">Open property details</a>
+    </p>
+    
+    <p>
+    <a href="urbanindo://user" class="btn btn-default">Open user details</a>
+    </p>
+    
+    <p>
+      <a href="urbanindo://company" class="btn btn-default">Open company details</a>  
+    </p>
+    
+    <p>
+      <a href="urbanindo://search" class="btn btn-default">Open search</a>
+    </p>
   </body>
 </html>
